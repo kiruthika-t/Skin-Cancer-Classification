@@ -36,7 +36,7 @@ Required Libraries :
  These above libraries are mandatory.
  
  Steps to follow :
- Step 1 : Run the ‘ham1000-MobileNetV2.ipynb’ file in either Jupyter/Visual Studio Code
+ Step 1 : Run the ‘ham1000-MobileNetV2.ipynb’ file in either Jupyter/Visual Studio Code </br>
  Step 2 : At the final step of Training the model , save that model in the same folder in  which  the ‘app.py’ file is present.
  Step 3 : Give the path of saved Model in app.py 
  (e.g:  Model= load_model('model12345.h5') )

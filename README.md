@@ -1,19 +1,17 @@
 # HAM10000SkinLesionDetector </br>
 Multi Class classification using CNN models on HAM10000 Skin Lesion Dataset
-
 </br>
-
 This repository contains all the models I have experimented with and I have also created flask based UI for the classification prediction.
 </br>
-Details about the files: </br>
+Details about the files: </br></br>
 mymodel  :  Python File in which classification is done based on CNN model [MobileNetV2 Pre-trained model].The weights are then saved to the 'model12345.h5' file for directly used for UI purpose.
-</br>
+</br> </br>
 app.py : Flask based UI file which helps in prediction of the image by running the 'model12345.h5' file in the backend for making prediction by getting image by the user and predict the output.
-</br>
+</br></br>
 base.html & index.html : For basic Interface.
-</br>
+</br></br>
 uploads:It contains the test image example
-
+</br></br>
 
 # Skin-Lesion-Detector-Tool </br>
  
@@ -26,14 +24,7 @@ uploads:It contains the test image example
                 These above should be extracted in that above folder. </br>
 </br>
 Required Libraries : </br>
-    Web framework : Flask </br>
-    Tensorflow </br>
-    Matplotlib </br>
-    Keras </br>
-    Numpy </br>
-    Pandas </br>
-    Sklearn </br>
- These above libraries are mandatory. </br>
+    Web framework : Flask ,Tensorflow, Matplotlib, Keras, Numpy, Pandas, Sklearn. These above libraries are mandatory. </br>
  
  Steps to follow : </br>
  Step 1 : Run the ‘ham1000-MobileNetV2.ipynb’ file in either Jupyter/Visual Studio Code </br>
